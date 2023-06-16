@@ -1,0 +1,42 @@
+/* custom.css */
+
+/* Réinitialisation des styles Bootstrap */
+body,
+p,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* Ajoutez d'autres styles personnalisés selon vos besoins */
+
+@media print {
+  /* Masquer le bouton d'impression */
+  .print-button {
+    display: none;
+    border: none;
+  }
+  .return-button {
+    display: none;
+    border: none;
+  }
+  
+  .card1 p {
+    color: #7e8d9f;
+    font-size: 20px;
+  }
+
+  .fab.fa-mdb.fa-4x {
+    color: #5d9fc5;
+  }
+
+  .text-muted {
+    color: #5d9fc5;
+  }
+
+.fas.fa-circle{
+  color: #84B0CA;
+}
+}
